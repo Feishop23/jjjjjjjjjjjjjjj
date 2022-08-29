@@ -1,0 +1,96 @@
+:root{
+    --Background:rgba(83, 83, 83, 0.404);
+    --Background-Scroll:rgb(214, 214, 214);
+    --Background-Scroll-Opacity:rgb(0, 0, 0);
+}
+.forFatherBarra{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+    padding: 0;
+    justify-content: center;
+    height: 100vh;
+}
+
+.fatherBarra{
+    display: flex;
+    justify-content: center;
+}
+.barraRM{
+    height: 20px;
+    border-radius: 10px;
+    width: 20em;
+    
+}
+.overflowRM{
+    background-color: var(--Background);
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 20em;
+    
+}
+.ProgressReact{
+    position: relative;
+    right: 20px;
+    height: 20px;
+    background-color: var(--Background-Scroll);
+    
+    width: 90%;
+    
+}
+.ProgressHtml{
+    position: relative;
+    text-align: end;
+    right: 20px;
+    height: 20px;
+    background-color: var(--Background-Scroll);
+    width: 85%;
+}
+.ProgressCss{
+    position: relative;
+    right: 20px;
+    height: 20px;
+    background-color: var(--Background-Scroll);
+    width: 79%;
+}
+.ProgressJs{
+    position: relative;
+    right: 20px;
+    height: 20px;
+    background-color: var(--Background-Scroll);
+    width: 89%;
+}
+.ProgressPy{
+    position: relative;
+    right: 20px;
+    height: 20px;
+    background-color: var(--Background-Scroll);
+    width: 60%;
+    
+}
+
+@keyframes mover{
+    
+    0%{
+        transform: translate(-100%);
+        opacity: 0;
+        background-color: var(--Background-Scroll-Opacity);
+    }
+    
+   
+}
+
+@keyframes Uno{
+    0%{
+        transform: translate(-100%);
+        opacity: 0;
+    }
+}
+@keyframes Dos{
+    0%{
+        transform: translate(100%);
+        opacity: 0;
+    }
+}
