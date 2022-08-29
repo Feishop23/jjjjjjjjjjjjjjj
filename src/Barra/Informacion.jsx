@@ -17,22 +17,22 @@ useScroll()
       <div className='Works'>
         <ul>
           <li>
-            <a id='IMG' target='_blank' href={RM}>Rick and Morty  <img src="./public/img/WA.png" alt="" /></a>
+            <a id='IMG' target='_blank' href={RM}>Rick and Morty  <img src="./public/img/WA" alt="" /></a>
            
             </li>
           <li>
-            <a target='_blank' href={Wa}>Wheather App <img src=".\public\img\WA.png" alt="" /></a>
+            <a target='_blank' href={Wa}>Wheather App <img src=".\public\img\WA" alt="" /></a>
             
             </li>
           <li>
-            <a target='_blank' href={FR}>Create Form <img src=".\public\img\Screenshot.png" alt='' /></a>
+            <a target='_blank' href={FR}>Create Form <img src=".\public\img\Screenshot" alt='' /></a>
             
             </li>
           <li>
-            <a target='_blank' href={CD}>Cards Randoms<img src=".\public\img\CR.png" alt="" /></a>
+            <a target='_blank' href={CD}>Cards Randoms<img src=".\public\img\CR" alt="" /></a>
             </li>
           <li>
-            <a target='_blank' href={Ic}>I-commer <img src=".\public\img\i-c.png" alt="" /></a>
+            <a target='_blank' href={Ic}>I-commer <img src=".\public\img\i-c" alt="" /></a>
             
             </li>
         </ul>
