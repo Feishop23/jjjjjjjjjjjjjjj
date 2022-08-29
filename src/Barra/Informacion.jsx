@@ -17,7 +17,7 @@ useScroll()
       <div className='Works'>
         <ul>
           <li>
-            <a id='IMG' target='_blank' href={RM}>Rick and Morty  <img src="/img/WA.png" alt="" /></a>
+            <a id='IMG' target='_blank' href={RM}>Rick and Morty  <img src="/img/RM.png" alt="" /></a>
            
             </li>
           <li>
