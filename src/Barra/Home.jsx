@@ -15,8 +15,7 @@ const Home = ({active}) => {
 
         <div >
           <p>
-          I introduce myself <a className='HomeP' href={Fb} target='_blank'><b>Feiberth Portilla</b> </a>, FullStack Programmer.
-          I don't like to define myself by my projects. I like to define myself by my projects and my way of solving my clients' problems.
+          I introduce myself <a className='HomeP' href={Fb} target='_blank'><b>Feiberth Portilla</b> </a>, FullStack Programmer. I like to define myself by my projects and my way of solving my clients' problems.
           </p>
         </div>
        </div>
