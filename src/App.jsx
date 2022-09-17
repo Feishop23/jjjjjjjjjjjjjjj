@@ -18,7 +18,7 @@ function App() {
             <NavLink className='NavLink' id='Home' to='/'>Home</NavLink>
           </li>
           <li >
-            <NavLink className='NavLink' to='/Barra/Informacion.jsx'>More information</NavLink>
+            <NavLink className='NavLink' to='/Barra/Informacion.jsx'>Information</NavLink>
           </li>
           
           <li >
