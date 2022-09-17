@@ -99,6 +99,7 @@ li a{
   transition: var(--fastApp);
   width: 25px;
   height: 25px;
+  margin: 0px 0px 20px 0px;
   color: rgba(84, 84, 84, 0.478);
 }
 .Facebook:hover{
@@ -195,6 +196,7 @@ form{
   font-weight: 400;
 }
 .form_input{
+  outline: none;
   border:none;
   background-color: rgb(202, 202, 202);
   height: 3em;
@@ -219,6 +221,9 @@ padding: 10px ;
   color: rgb(0, 0, 0);
   transition: 0.1s ease-in;
   
+}
+.parrafoFormulario{
+  font-size: 15px;
 }
 .Overflow{
   overflow: hidden;
