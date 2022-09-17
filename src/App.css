@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@200;400;800&family=Notable&display=swap');
 :root{
   --colorTextSure:rgb(0, 0, 0);
-  --colorNavlink: rgb(251, 59, 59);
+  --colorNavlink: rgb(203, 203, 203);
   --fastApp: 0.2s ease-in-out;
   --ColorForm: rgb(229, 229, 229);
   --ColorFormHver: rgb(220, 220, 220);
