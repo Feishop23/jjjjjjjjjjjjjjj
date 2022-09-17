@@ -2,7 +2,7 @@ import React from 'react'
 import { useScroll } from './hooks/useScroll'
 
 import './Styles/Progress.css'
-export const Informacion = () => {
+export const Informacion = ({activador}) => {
 useScroll()
 
 
@@ -40,20 +40,19 @@ useScroll()
       </div>
       <div className='InformacionP'>
         <div className='InformacionH'>
-              <div className='Overflow'>
-                <p id='conUno'>I consider myself very responsible in my work environment as well as sociable, I can work very well in a group as well as alone, I like to receive new jobs and challenges because I have the thought that this way I will improve and expand my knowledge.</p>
-                <p id='conDos'>
+              <div className='Overflow'>{activador ? <p id='conUno'>Me consideran muy responsable en mi entorno laboral así como sociable, puedo trabajar muy bien tanto en grupo como en solitario, me gusta recibir nuevos trabajos y retos porque tengo el pensamiento de que así mejoraré y ampliaré mis conocimientos.</p> : <p id='conUno'>I consider myself very responsible in my work environment as well as sociable, I can work very well in a group as well as alone, I like to receive new jobs and challenges because I have the thought that this way I will improve and expand my knowledge.</p>}
+                {activador ? <p id='conDos'>Soy un residente permanente de los Estados Unidos con nacionalidad ecuatoriana buscando seguir mis sueños como programador.</p> : <p id='conDos'>
                 I am a permanent resident of the United States with Ecuadorian nationality looking to follow my dreams as a programmer.
-                </p>
+                </p> }
+                
               </div>
         </div>
       </div>
       <div>
         
-       <ul className='forFatherBarra'>
-         <p>
-         Percentages of knowledge.
-         </p>
+       <ul className='forFatherBarra'>{
+        activador ? <p>Porcentajes de conocimiento.</p> : <p>Percentages of knowledge.</p>
+       }
         <li> 
           <div className='fatherBarra'>
              <div className="barraRM">

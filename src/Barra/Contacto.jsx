@@ -7,13 +7,13 @@ import {
   FaTwitter
 } from "react-icons/fa";
       
-export const Contacto = () => {
+export const Contacto = ({activador}) => {
   
   return (
     <>
       <div className="Contacto">
         <div className="contactoChild">
-          <div className="FormularioP">{<Formulario /> }</div>
+          <div className="FormularioP">{<Formulario activador={activador}/> }</div>
 
           <div className="RD">
             <li>
