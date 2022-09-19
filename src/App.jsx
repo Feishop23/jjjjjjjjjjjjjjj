@@ -31,7 +31,7 @@ setactivador(!activador)
           </li>
           
             </div>  
-        <div><button onClick={activo}> boton</button></div>
+        <div><button className='cambioDeIdioma' onClick={activo}>{activador ? 'English' : 'Español'}</button></div>
           <div>
             <Routes>
               <Route path='/' element={<Home activador={activador}/>}/>

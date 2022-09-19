@@ -60,7 +60,7 @@ li a{
 
 .Home{
   display: flex;
-  height: 96vh;
+  height: 87vh;
   align-items: center;
   justify-content: center;
 }
@@ -78,16 +78,15 @@ li a{
   text-align: center;
   align-items: center;
   justify-content: center;
-  height: 90vh;
 }
 .contactoChild{
-  height: 97vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .FormularioP{
-  margin: 20em 0em;
+  margin: 15em 0em;
 }
 .RD{
   display: flex;
@@ -248,4 +247,12 @@ box-shadow:  20px 20px 60px #bababa,
 .HomeP:hover{
   color: var(--colorBackgroundSure);
   transition: .2s ease-in;
+}
+.cambioDeIdioma{
+  background-color: var(--colorNavlink);
+  border-radius: 0px 10px 10px 0px;
+  margin: 19px 10px 0px 0px ;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
 }
