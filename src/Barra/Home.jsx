@@ -8,7 +8,7 @@ const Home = ({activador}) => {
     <div className='Home'>
        <div className='homeFull'>
         <div className='Titulo'>{
-          activador ? <h1>Bienvenido a mi portafolio</h1> : <h1>Welcome to my Portfolio.</h1>
+          activador ? <h1>Bienvenido a mi portafolio.</h1> : <h1>Welcome to my Portfolio.</h1>
         }
         </div>
         <div >
